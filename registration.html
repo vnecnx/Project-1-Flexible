@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>User Registration</title>
+        <meta name="description" content="Page for new users to register an account.">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./css/registration.css">
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <div class="registration-form">
+            <h1>User Registration</h1>
+            <form action="/registration-info.html">
+                <fieldset>
+                    <legend>Personal Information</legend><br>
+
+                    <label for="firstname">First Name</label><br>
+                    <input type="text" id="firstname" name="firstname" required><br><br>
+
+                    <label for="lastname">Last Name</label><br>
+                    <input type="text" id="lastname" name="lastname" required><br><br>
+
+                    <label for="dob">Date of birth</label><br>
+                    <input type="date" id="dob" name="dob" required><br><br>
+
+                    <label>Gender</label><br>
+                    <input type="radio" id="male" name="gender" value="male" checked required>
+                    <label for="male">Male</label>
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="female">Female</label>
+                    <input type="radio" id="other" name="gender" value="other">
+                    <label for="other">Other</label><br><br>
+
+                    <label for="country">Country</label><br>
+                    <select name="country" id="country" required>
+                        <option value="us">United States</option>
+                        <option value="ca">Canada</option>
+                        <option value="uk">United Kingdom</option>
+                    </select><br><br>
+
+                    <label for="bio">Bio</label><br>
+                    <textarea name="bio" id="bio" rows="4" cols="30"></textarea>
+                </fieldset><br><br><br>
+                <fieldset>
+                    <legend>Login Information</legend><br>
+
+                    <label for="email">Email</label><br>
+                    <input type="email" id="email" name="email" required><br><br>
+
+                    <label for="password">Password</label><br>
+                    <input type="password" id="password" name="password" required><br><br>
+                </fieldset><br><br><br>
+
+                <fieldset><div>
+                    <input type="checkbox" id="terms" name="terms" required>
+                    <label for="terms">I agree to the <a href="">terms and conditions</a></label><br><br>
+
+                    <input type="reset" value="Clear form" class="reset button">
+
+                    <input type="submit" value="Submit" class="submit button">
+                </div></fieldset>
+            </form>
+        </div>
+        
+        <script src="" async defer></script>
+    </body>
+</html>

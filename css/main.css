@@ -162,6 +162,7 @@ main ul {
 .contact-box {
     padding: 32px;
     box-shadow: 0px 0px 20px 2px #798bff8f;
+    background-color: black;
     border-radius: 25px;
     overflow: hidden;
     display: flex;
@@ -183,11 +184,6 @@ main ul {
 .contact-li {
     line-height: 0.8;
     margin: 0;
-    padding: 0 40px;
-}
-
-.contact-li ol {
-    margin: 0;
 }
 
 .contact-li a {
@@ -197,4 +193,8 @@ main ul {
 
 .contact-li a:hover {
     text-decoration: underline;
+}
+
+.contact-form {
+    padding: 20px;
 }

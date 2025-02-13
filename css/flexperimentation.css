@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+
+main {
+    padding: 40px 200px;
+}
+
+.carousel {
+    border: 1px solid black;
+    border-radius: 24px;
+    overflow: hidden;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.item-box {
+    border: 1px solid black;
+    border-radius: 24px;
+    overflow: hidden;
+    padding: 8px;
+    background-color: slateblue;
+    color: white;
+}
+
+.item-box img {
+    width: 100%;
+    overflow: hidden;
+    border-radius: 24px;
+}
+
+.text {
+    padding: 12px;
+}

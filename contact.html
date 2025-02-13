@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Ernest Fowler Portfolio</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./css/normalize.css">
+        <link rel="stylesheet" href="./css/main.css">
+
+        <link rel="icon" href="./icon.png">
+
+        <!--font family (body): Montserrat-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&display=swap" rel="stylesheet">
+        
+        <!--font family (heading): IBM Plex Mono-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,600;1,600&display=swap" rel="stylesheet">
+
+
+        <meta name="theme-color" content="#fafafa">
+    </head>
+
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <header>
+            <a href="./index.html"><img src="./img/EF-logo.png" alt="Logo Icon" class="logo"></a>
+            <nav><h1>
+                <a href="">Projects</a>
+                <a href="">About</a>
+                <a href="">Contact</a>
+            </h1></nav>
+        </header>
+
+       
+
+        <main>
+            <div class="hero">
+                <div class="hero-img"></div>
+            </div>
+
+            <div class="main-format">
+                <div class="contact-box">
+                    <h2>Let's get in contact!</h2>
+                    <div class="contact-divider"></div>
+                    <div class="contact-form">
+                        <form action="/submit_form" method="post">
+                            <p><label for="name">Name:</label></p>
+                            <input type="text" id="name" name="name" required placeholder="Enter your
+                            name"><br><br>
+        
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email"><br><br>
+        
+                            <label for="password">Password:</label>
+                            <input type="password" id="password" name="password" required><br><br>
+                            
+                            <label>Gender:</label>
+                            <input type="radio" id="male" name="gender" value="male" checked>
+                            <label for="male">Male</label>
+                            <input type="radio" id="female" name="gender" value="female">
+                            <label for="female">Female</label><br><br>
+        
+                            <label for="file">File Upload:</label>
+                            <input type="file" id="file" name="file" multiple><br><br>
+        
+                            <input type="submit" value="Submit">
+                        </form>
+                    </div>                        
+                </div>
+            </div>
+            
+        </div>
+        </main>
+        
+        <script src="./js/main.js"></script>
+    </body>
+</html>
