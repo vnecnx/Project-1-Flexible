@@ -2,8 +2,34 @@
     box-sizing: border-box;
 }
 
+body {
+    margin: 0;
+}
+
+header {
+    background-color: cornflowerblue;
+}
+
+nav {
+    padding: 20px 10%;
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
+}
+
+nav a {
+    color: white;
+    padding: 8px;
+    background-color: rgb(126, 163, 234);
+    border-radius: 8px;
+
+    display: flex;
+    flex: .25;
+    justify-content: center;
+}
+
 main {
-    padding: 40px 200px;
+    padding: 40px 10%;
 }
 
 .carousel {
